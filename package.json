@@ -1,0 +1,30 @@
+{
+  "name": "isomorphic-angular-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucaMele/isomorphic-angular-1.git"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "author": "lucamele1@hotmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucaMele/isomorphic-angular-1/issues"
+  },
+  "homepage": "https://github.com/LucaMele/isomorphic-angular-1#readme",
+  "dependencies": {
+    "angular": "~1.6.1",
+    "express": "^4.14.1",
+    "jsdom": "^9.9.1"
+  },
+  "server": {
+    "angular": "node_modules/angular/angular.min.js"
+  }
+}
